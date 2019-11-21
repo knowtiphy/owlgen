@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="net.sourceforge.owlapi:owlapi-api:5.1.12" level="project" />
+    <orderEntry type="library" exported="" name="com.hermit-reasoner:org.semanticweb.hermit:1.3.8.4" level="project" />
+  </component>
+</module>
