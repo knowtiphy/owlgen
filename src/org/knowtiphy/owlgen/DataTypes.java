@@ -14,8 +14,8 @@ public class DataTypes
     static
     {
         dataTypes.put(OWL2Datatype.XSD_BOOLEAN, "Boolean");
-        dataTypes.put(OWL2Datatype.XSD_DATE_TIME, "LocalDate");
-        dataTypes.put(OWL2Datatype.XSD_DATE_TIME_STAMP, "LocalDate");
+        dataTypes.put(OWL2Datatype.XSD_DATE_TIME, "ZonedDateTime");
+        dataTypes.put(OWL2Datatype.XSD_DATE_TIME_STAMP, "ZonedDateTime");
         dataTypes.put(OWL2Datatype.XSD_INT, "Integer");
         dataTypes.put(OWL2Datatype.XSD_STRING, "String");
     }
@@ -25,8 +25,8 @@ public class DataTypes
     static
     {
         propertyDataTypes.put(OWL2Datatype.XSD_BOOLEAN, "SimpleBooleanProperty");
-        propertyDataTypes.put(OWL2Datatype.XSD_DATE_TIME, "SimpleObjectProperty<LocalDate>");
-        propertyDataTypes.put(OWL2Datatype.XSD_DATE_TIME_STAMP, "SimpleObjectProperty<LocalDate>");
+        propertyDataTypes.put(OWL2Datatype.XSD_DATE_TIME, "SimpleObjectProperty<ZonedDateTime>");
+        propertyDataTypes.put(OWL2Datatype.XSD_DATE_TIME_STAMP, "SimpleObjectProperty<ZonedDateTime>");
         propertyDataTypes.put(OWL2Datatype.XSD_INT, "SimpleIntegerProperty");
         propertyDataTypes.put(OWL2Datatype.XSD_STRING, "SimpleStringProperty");
     }
